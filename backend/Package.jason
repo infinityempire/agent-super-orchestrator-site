@@ -1,0 +1,28 @@
+name": "aso-backend-advanced",
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": { "start": "node server.mjs" },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^2.7.0"
+  }
+}
+
+backend/.env.example
+
+LICENSE_MODE=on
+LICENSE_KEYS=DEMO-KEY-1234
+PORT=8080
+TZ=Asia/Jerusalem
+
+# Optional integrations
+TELEGRAM_BOT_TOKEN=
+TELEGRAM_CHAT_ID=
+WP_BASE_URL=
+WP_USERNAME=
+WP_APP_PASSWORD=
+BITLY_TOKEN=
+WEBHOOK_URL=
